@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NotchPilot — Privacy Policy</title>
+  <style>
+    :root {
+      --bg: #090d16;
+      --card-bg: rgba(255, 255, 255, 0.04);
+      --border: rgba(255, 255, 255, 0.1);
+      --accent: #00F5D4;
+      --text: #f1f5f9;
+      --text-muted: #94a3b8;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+      margin: 0;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 48px;
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+    }
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 700;
+      margin-top: 0;
+      background: linear-gradient(135deg, #fff 0%, var(--accent) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .badge {
+      display: inline-block;
+      padding: 4px 12px;
+      border-radius: 999px;
+      background: rgba(0, 245, 212, 0.12);
+      color: var(--accent);
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 24px;
+      border: 1px solid rgba(0, 245, 212, 0.25);
+    }
+    h2 {
+      font-size: 1.3rem;
+      color: #fff;
+      margin-top: 32px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 8px;
+    }
+    p, li {
+      color: var(--text-muted);
+    }
+    strong {
+      color: var(--text);
+    }
+    ul {
+      padding-left: 20px;
+    }
+    footer {
+      margin-top: 48px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <span class="badge">100% Offline & Private</span>
+    <h1>Privacy Policy for NotchPilot</h1>
+    <p><em>Last updated: September 8, 2026</em></p>
+
+    <p>NotchPilot ("the Application") is developed as a native macOS utility engineered with privacy as a foundational principle. This policy describes how your information is handled.</p>
+
+    <h2>1. Zero Data Collection</h2>
+    <p>NotchPilot <strong>does not collect, store, transmit, or sell</strong> any personal data, usage metrics, analytics, crash logs, or unique device identifiers.</p>
+
+    <h2>2. On-Device, Ephemeral Processing</h2>
+    <p>All system metrics displayed—including CPU load, memory allocation, disk status, network bandwidth, and battery levels—are queried locally using official Apple system interfaces (Mach Kernel, BSD sockets, and Metal APIs).</p>
+    <ul>
+      <li>These measurements reside exclusively in volatile memory (RAM).</li>
+      <li>Metrics are <strong>never written to disk</strong> and are <strong>never transmitted</strong> outside your Mac.</li>
+    </ul>
+
+    <h2>3. Network Interfaces</h2>
+    <p>While the app reads the byte count on your active network interface to report upload and download speeds, it <strong>does not inspect packet contents, domain names, or internet traffic</strong>.</p>
+
+    <h2>4. No Third-Party SDKs or Trackers</h2>
+    <p>The application is built entirely with first-party Apple Swift and SwiftUI frameworks. It contains no analytics frameworks, no advertising SDKs, and no tracking scripts.</p>
+
+    <h2>5. Apple App Sandbox Compliance</h2>
+    <p>NotchPilot operates strictly within the secure macOS App Sandbox container, ensuring isolated execution and complete protection for your personal files and applications.</p>
+
+    <footer>
+      &copy; 2026 Rareș-Mihail Cristea &middot; NotchPilot &middot; All Rights Reserved
+    </footer>
+  </div>
+</body>
+</html>

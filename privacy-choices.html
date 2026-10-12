@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NotchPilot — User Privacy Choices</title>
+  <style>
+    :root {
+      --bg: #090d16;
+      --card-bg: rgba(255, 255, 255, 0.04);
+      --border: rgba(255, 255, 255, 0.1);
+      --accent: #00F5D4;
+      --text: #f1f5f9;
+      --text-muted: #94a3b8;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+      margin: 0;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 48px;
+      backdrop-filter: blur(20px);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+    }
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      margin-top: 0;
+      background: linear-gradient(135deg, #fff 0%, var(--accent) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    h2 { font-size: 1.25rem; color: #fff; margin-top: 32px; border-bottom: 1px solid var(--border); padding-bottom: 8px; }
+    p, li { color: var(--text-muted); }
+    strong { color: #fff; }
+    a { color: var(--accent); text-decoration: none; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Your Privacy Choices & Rights</h1>
+    <p><em>NotchPilot Architecture: Zero-Data-Collection & 100% Local Processing</em></p>
+
+    <h2>1. Tracking & Profiling Opt-Out</h2>
+    <p>NotchPilot does not engage in cross-app tracking, analytics, or behavioral profiling. No tracking code or analytics SDKs exist in the binary.</p>
+
+    <h2>2. Data Access & Deletion Requests</h2>
+    <p>Because we do not collect or store any of your personal data on remote servers, there are no stored records to access, export, or delete. Your data never leaves your Mac.</p>
+
+    <h2>3. Resetting Preferences</h2>
+    <p>You can reset all local app preferences by running <code>defaults delete com.notchpilot.app</code> in Terminal or by uninstalling the application.</p>
+
+    <p><a href="index.html">← Back to Overview</a></p>
+  </div>
+</body>
+</html>
