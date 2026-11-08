@@ -26,4 +26,4 @@ Because NotchPilot operates with **Zero Data Collection**:
    Your license status is tied securely to your Apple ID through Apple StoreKit 2. To manage or review purchase history, visit your [Apple ID Account Settings](https://appleid.apple.com) or the macOS App Store account page.
 
 5. **Inquiries**:  
-   If you wish to make a formal privacy rights request or have questions, contact: `support@notchpilot.app`.
+   If you wish to make a formal privacy rights request or have questions, contact: `rares.cristea@ymail.com`.
