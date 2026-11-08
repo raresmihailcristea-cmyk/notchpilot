@@ -31,5 +31,5 @@ NotchPilot complies with Apple's macOS App Sandbox security requirements, operat
 ## 6. Contact Information
 For any inquiries or privacy-related questions:
 * **Developer**: Rareș-Mihail Cristea
-* **Email**: `support@notchpilot.app`
+* **Email**: `rares.cristea@ymail.com`
 * **Address**: Bucharest, Romania
