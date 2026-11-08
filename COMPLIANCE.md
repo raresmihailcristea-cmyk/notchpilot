@@ -14,7 +14,7 @@ This page provides official European Union compliance information, product safet
 * **Bundle Identifier**: `com.notchpilot.app`
 * **Developer & Legal Entity**: Rareș-Mihail Cristea
 * **Country of Origin / Registration**: Romania (European Union)
-* **Support & Contact Email**: `support@notchpilot.app`
+* **Support & Contact Email**: `rares.cristea@ymail.com`
 * **Authorized EU Representative**: Rareș-Mihail Cristea (Bucharest, Romania)
 
 ---
@@ -39,4 +39,4 @@ As a 100% digital software distribution provided through Apple App Store:
 ## 4. Digital Regulatory Inquiries
 
 For official regulatory or consumer protection inquiries within the European Economic Area:
-* Direct all inquiries to: `support@notchpilot.app`
+* Direct all inquiries to: `rares.cristea@ymail.com`
