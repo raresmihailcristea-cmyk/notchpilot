@@ -39,4 +39,4 @@ On external displays and notch-less Macs, NotchPilot seamlessly anchors to the t
 * **Privacy Policy**: [https://raresmihailcristea-cmyk.github.io/notchpilot/privacy.html](https://raresmihailcristea-cmyk.github.io/notchpilot/privacy.html)
 * **User Privacy Choices**: [https://raresmihailcristea-cmyk.github.io/notchpilot/privacy-choices.html](https://raresmihailcristea-cmyk.github.io/notchpilot/privacy-choices.html)
 * **EU GPSR Product Safety & Compliance**: [https://raresmihailcristea-cmyk.github.io/notchpilot/compliance.html](https://raresmihailcristea-cmyk.github.io/notchpilot/compliance.html)
-* **Developer Contact**: `support@notchpilot.app` • Rareș-Mihail Cristea
+* **Developer Contact**: `rares.cristea@ymail.com` • Rareș-Mihail Cristea
